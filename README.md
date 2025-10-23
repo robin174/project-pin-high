@@ -9,7 +9,7 @@ A Shadcn + Tailwind + Next.js app to input cloud spend and get AI-based cost-sav
 
 ```
 git clone https://github.com/your-username/project-pin-high.git
-cd project-pin-high-02
+cd project-pin-high
 ```
 
 ### 2. Install dependencies
