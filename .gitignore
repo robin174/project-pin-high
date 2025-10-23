@@ -16,3 +16,6 @@
 # next.js
 /.next/
 /out/
+
+# env files (can opt-in for committing if needed)
+.env*
