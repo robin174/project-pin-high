@@ -26,3 +26,23 @@ http://localhost:3000
 ```
 	
 App sign-in via Magic Link.
+
+
+#TEMP
+
+To reorganise the below so you know where you are when returning to thge project.
+
+##Date
+
+```
+Mid-October 2025
+```
+
+##Progress made
+
+- Magic sign-in place
+- Clubs recorded
+
+##What to do next
+
+- Sort buttons: Edit and delete
