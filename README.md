@@ -42,11 +42,11 @@ App sign-in via Magic Link.
 ### Last implemented?
 
 - Magic sign-in added
-- Cluibs recorded
-- 3 maximum
+- Clubs recorded
+- _3 bullets maximum_
 
 ### What next?
 
 - Edit button on club
 - Delete button on club
-- 3 maximum
+- _3 bullets maximum_
