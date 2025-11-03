@@ -27,8 +27,6 @@ http://localhost:3000
 	
 App sign-in via Magic Link.
 
----
-
 ## 📋 Status
 
 ### Date
