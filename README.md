@@ -27,22 +27,26 @@ http://localhost:3000
 	
 App sign-in via Magic Link.
 
+---
 
-#TEMP
+## 📋 Status
 
-To reorganise the below so you know where you are when returning to thge project.
+### Date
 
-##Date
+`Mid-October 2025`
 
-```
-Mid-October 2025
-```
+### Folder
 
-##Progress made
+`dev/project-pin-high`
 
-- Magic sign-in place
-- Clubs recorded
+### Last implemented?
 
-##What to do next
+- Magic sign-in added
+- Cluibs recorded
+- 3 maximum
 
-- Sort buttons: Edit and delete
+### What next?
+
+- Edit button on club
+- Delete button on club
+- 3 maximum
