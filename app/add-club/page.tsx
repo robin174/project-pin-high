@@ -22,6 +22,7 @@ const BRANDS = ['Ping', 'Titleist', 'Callaway', 'TaylorMade', 'Cobra', 'Other']
 export default function AddClubPage() {
   const [type, setType] = useState('')
   const [brand, setBrand] = useState('')
+  const [customBrand, setCustomBrand] = useState("");
   const [model, setModel] = useState('')
   const [message, setMessage] = useState('')
 
@@ -35,10 +36,13 @@ export default function AddClubPage() {
       return
     }
 
+    // Use customBrand if brand is "Other"
+    const brandToSave = brand === "Other" ? customBrand : brand
+
     const { error } = await supabase.from('clubs').insert([
       {
         type,
-        brand,
+        brand: brandToSave,
         model,
         user_id: user.id,
       },
@@ -50,6 +54,7 @@ export default function AddClubPage() {
       setMessage('Club added successfully ✅')
       setType('')
       setBrand('')
+      setCustomBrand("") // clear custom field if it was used
       setModel('')
     }
   }
@@ -81,6 +86,18 @@ export default function AddClubPage() {
               <option key={b} value={b}>{b}</option>
             ))}
           </select>
+
+          {brand === "Other" && (
+            <div>
+              <Input
+                type="text"
+                value={customBrand}
+                onChange={(e) => setCustomBrand(e.target.value)}
+                placeholder="Enter brand name"
+                required
+              />
+            </div>
+          )}
 
           <Input
             placeholder="Model"

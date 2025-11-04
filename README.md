@@ -39,12 +39,12 @@ App sign-in via Magic Link.
 
 ### Last implemented?
 
-- Magic sign-in added
-- Clubs recorded
-- _3 bullets maximum_
+- Edit, delete buttons and modal styles updated
+- Ability to add 'Other' to club brands
+- Supbase can take a 'text' value for club brand
 
 ### What next?
 
-- Edit button on club
-- Delete button on club
-- _3 bullets maximum_
+- Ability to add 'Other' to club type
+- Add more general data for 'player profile' - left/right hand / Location (county)
+- Check Miro.

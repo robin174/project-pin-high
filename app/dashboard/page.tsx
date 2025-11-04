@@ -142,7 +142,7 @@ export default function DashboardPage() {
                       <DialogTrigger asChild>
                         <Button
                           size="sm"
-                          variant="secondary"
+                          variant="default"
                           onClick={() => {
                             setEditClubId(club.id)
                             setEditBrand(club.brand)
